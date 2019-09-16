@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TitleComponent implements OnInit {
 
+  StarState:boolean = false ;
+
+  ClickOnStar()
+  {
+    this.StarState = !this.StarState;
+  }
+
   constructor() { }
 
   ngOnInit() {
