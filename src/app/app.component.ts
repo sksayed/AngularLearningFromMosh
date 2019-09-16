@@ -11,8 +11,6 @@ export class AppComponent {
    
   post = {
     title :'hello-world',
-    StarState:true
-    
-
-  }
+    isSelected:false
+      }
 }
