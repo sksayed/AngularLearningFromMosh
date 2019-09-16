@@ -13,4 +13,9 @@ export class AppComponent {
     title :'hello-world',
     isSelected:false
       }
+
+      OnisFavouriteChanged()
+      {
+        console.log("favourite has been changed");
+      }
 }
